@@ -1,0 +1,6 @@
+framework module ZGIFImage {
+  umbrella header "ZGIFImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

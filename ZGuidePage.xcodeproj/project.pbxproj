@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0516899551AA715323AB4C11 /* Pods_ZGuidePage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EC8DCC0A0D99445646A869 /* Pods_ZGuidePage.framework */; };
+		D6499D991FD54EA9003BBE2B /* gif-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = D6499D961FD54EA8003BBE2B /* gif-2.gif */; };
+		D6499D9A1FD54EA9003BBE2B /* gif-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = D6499D971FD54EA8003BBE2B /* gif-1.gif */; };
+		D6499D9B1FD54EA9003BBE2B /* gif-3.gif in Resources */ = {isa = PBXBuildFile; fileRef = D6499D981FD54EA9003BBE2B /* gif-3.gif */; };
 		D651142E1FD2DE7A009BDB7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651142D1FD2DE7A009BDB7D /* AppDelegate.swift */; };
 		D65114301FD2DE7A009BDB7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D651142F1FD2DE7A009BDB7D /* ViewController.swift */; };
 		D65114331FD2DE7A009BDB7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65114311FD2DE7A009BDB7D /* Main.storyboard */; };
 		D65114351FD2DE7A009BDB7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65114341FD2DE7A009BDB7D /* Assets.xcassets */; };
 		D65114381FD2DE7A009BDB7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65114361FD2DE7A009BDB7D /* LaunchScreen.storyboard */; };
+		D65114411FD2F317009BDB7D /* ZGuidePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65114401FD2F317009BDB7D /* ZGuidePageView.swift */; };
+		D65114521FD2FD22009BDB7D /* guideMovie1.mov in Resources */ = {isa = PBXBuildFile; fileRef = D65114481FD2FD21009BDB7D /* guideMovie1.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50EC8DCC0A0D99445646A869 /* Pods_ZGuidePage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZGuidePage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3599FCC4F7A1DEE591045E /* Pods-ZGuidePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGuidePage.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGuidePage/Pods-ZGuidePage.release.xcconfig"; sourceTree = "<group>"; };
+		D6499D961FD54EA8003BBE2B /* gif-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gif-2.gif"; sourceTree = "<group>"; };
+		D6499D971FD54EA8003BBE2B /* gif-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gif-1.gif"; sourceTree = "<group>"; };
+		D6499D981FD54EA9003BBE2B /* gif-3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gif-3.gif"; sourceTree = "<group>"; };
 		D651142A1FD2DE7A009BDB7D /* ZGuidePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGuidePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D651142D1FD2DE7A009BDB7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D651142F1FD2DE7A009BDB7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,9 @@
 		D65114341FD2DE7A009BDB7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D65114371FD2DE7A009BDB7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D65114391FD2DE7A009BDB7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65114401FD2F317009BDB7D /* ZGuidePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGuidePageView.swift; sourceTree = "<group>"; };
+		D65114481FD2FD21009BDB7D /* guideMovie1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = guideMovie1.mov; sourceTree = "<group>"; };
+		DCBAB96C5EFCB304FB993F33 /* Pods-ZGuidePage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGuidePage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGuidePage/Pods-ZGuidePage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0516899551AA715323AB4C11 /* Pods_ZGuidePage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8338918187782D66B089C28A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50EC8DCC0A0D99445646A869 /* Pods_ZGuidePage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91DDB93077B675C312DAE2A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCBAB96C5EFCB304FB993F33 /* Pods-ZGuidePage.debug.xcconfig */,
+				7B3599FCC4F7A1DEE591045E /* Pods-ZGuidePage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D65114211FD2DE79009BDB7D = {
 			isa = PBXGroup;
 			children = (
 				D651142C1FD2DE7A009BDB7D /* ZGuidePage */,
 				D651142B1FD2DE7A009BDB7D /* Products */,
+				91DDB93077B675C312DAE2A1 /* Pods */,
+				8338918187782D66B089C28A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +88,8 @@
 		D651142C1FD2DE7A009BDB7D /* ZGuidePage */ = {
 			isa = PBXGroup;
 			children = (
+				D65114421FD2FD0E009BDB7D /* Images */,
+				D651143F1FD2F2F0009BDB7D /* ZGuidePage */,
 				D651142D1FD2DE7A009BDB7D /* AppDelegate.swift */,
 				D651142F1FD2DE7A009BDB7D /* ViewController.swift */,
 				D65114311FD2DE7A009BDB7D /* Main.storyboard */,
@@ -64,6 +100,25 @@
 			path = ZGuidePage;
 			sourceTree = "<group>";
 		};
+		D651143F1FD2F2F0009BDB7D /* ZGuidePage */ = {
+			isa = PBXGroup;
+			children = (
+				D65114401FD2F317009BDB7D /* ZGuidePageView.swift */,
+			);
+			path = ZGuidePage;
+			sourceTree = "<group>";
+		};
+		D65114421FD2FD0E009BDB7D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D6499D971FD54EA8003BBE2B /* gif-1.gif */,
+				D6499D961FD54EA8003BBE2B /* gif-2.gif */,
+				D6499D981FD54EA9003BBE2B /* gif-3.gif */,
+				D65114481FD2FD21009BDB7D /* guideMovie1.mov */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D651143C1FD2DE7A009BDB7D /* Build configuration list for PBXNativeTarget "ZGuidePage" */;
 			buildPhases = (
+				127DB91F82D473B6AB3DD5D5 /* [CP] Check Pods Manifest.lock */,
 				D65114261FD2DE7A009BDB7D /* Sources */,
 				D65114271FD2DE7A009BDB7D /* Frameworks */,
 				D65114281FD2DE7A009BDB7D /* Resources */,
+				AA19244BFC63364C2147D6E3 /* [CP] Embed Pods Frameworks */,
+				AA9E8EEF8C2E151641B5983F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,11 +183,71 @@
 			files = (
 				D65114381FD2DE7A009BDB7D /* LaunchScreen.storyboard in Resources */,
 				D65114351FD2DE7A009BDB7D /* Assets.xcassets in Resources */,
+				D6499D9B1FD54EA9003BBE2B /* gif-3.gif in Resources */,
+				D65114521FD2FD22009BDB7D /* guideMovie1.mov in Resources */,
+				D6499D9A1FD54EA9003BBE2B /* gif-1.gif in Resources */,
+				D6499D991FD54EA9003BBE2B /* gif-2.gif in Resources */,
 				D65114331FD2DE7A009BDB7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		127DB91F82D473B6AB3DD5D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZGuidePage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA19244BFC63364C2147D6E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZGuidePage/Pods-ZGuidePage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ZGIFImage/ZGIFImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ZPageControl/ZPageControl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZGIFImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZPageControl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGuidePage/Pods-ZGuidePage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA9E8EEF8C2E151641B5983F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGuidePage/Pods-ZGuidePage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D65114261FD2DE7A009BDB7D /* Sources */ = {
@@ -138,6 +256,7 @@
 			files = (
 				D65114301FD2DE7A009BDB7D /* ViewController.swift in Sources */,
 				D651142E1FD2DE7A009BDB7D /* AppDelegate.swift in Sources */,
+				D65114411FD2F317009BDB7D /* ZGuidePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +391,12 @@
 		};
 		D651143D1FD2DE7A009BDB7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCBAB96C5EFCB304FB993F33 /* Pods-ZGuidePage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZGuidePage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MQZHot.ZGuidePage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,10 +407,12 @@
 		};
 		D651143E1FD2DE7A009BDB7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3599FCC4F7A1DEE591045E /* Pods-ZGuidePage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZGuidePage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MQZHot.ZGuidePage;
 				PRODUCT_NAME = "$(TARGET_NAME)";

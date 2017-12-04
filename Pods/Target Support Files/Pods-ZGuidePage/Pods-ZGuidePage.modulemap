@@ -1,0 +1,6 @@
+framework module Pods_ZGuidePage {
+  umbrella header "Pods-ZGuidePage-umbrella.h"
+
+  export *
+  module * { export * }
+}

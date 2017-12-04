@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+
+use_frameworks!
+
+target 'ZGuidePage' do
+
+pod 'ZGIFImage', '~> 0.0.2'
+pod 'ZPageControl', '~> 0.0.1'
+
+end

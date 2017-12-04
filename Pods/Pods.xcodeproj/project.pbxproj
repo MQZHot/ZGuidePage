@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267C068C6D3E5A961A72CFE4C99BF122 /* ZPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32868CAB6B21EC594945FFE293AA820E /* ZPageControl-dummy.m */; };
+		3112D1B08FEEA02C7532839B2ABFBCE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		400C84DC48CA05CE1CAA7B71A824DD79 /* ZPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5DB63E356F46200465DC55A558C4EA /* ZPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EED68D6705C6CC1191DE4CEEF4039FA /* ZGIFImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 373111A43A7C290F315E99BD58E0D216 /* ZGIFImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77D48B5F792B5978EDB9A4EB0D7E3F32 /* Pods-ZGuidePage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D20267D7B1F4355B678AECF27DE05A8 /* Pods-ZGuidePage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		958DCBA0E300C70D5CEF49EE8D45E8D6 /* Pods-ZGuidePage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0031371A8813FE25BD7BE5C15C4A995 /* Pods-ZGuidePage-dummy.m */; };
+		C0F4AF1D21F6B3B29156C79A26FD2E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CE93987DD5E255842BCC2561FABACA26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D6B2E8827832F373EAB2BACDF601C537 /* ZGIFImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D0ED2811525048703BF7B91C58E6F9 /* ZGIFImage-dummy.m */; };
+		E5FA47323E820A412E11F5F64BC77681 /* ZPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF776CE8EB38DB7BC536897BCAE950C /* ZPageControl.swift */; };
+		EADC9BA5C7E693871402AF97968B995D /* ZGIFImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67391243A8009EB3BFE9972C07C3429D /* ZGIFImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		093151E51B130D61093981579ED86C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93247069BB0AFA0ECB21DF2D41CAA668;
+			remoteInfo = ZPageControl;
+		};
+		C7B383C95695CE5046CE3968A2B8E0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF89B1374226AF3284C9D1D7E086FC78;
+			remoteInfo = ZGIFImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051D32DC14C08A0DE775217B8BC7B998 /* Pods-ZGuidePage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZGuidePage.modulemap"; sourceTree = "<group>"; };
+		0D20267D7B1F4355B678AECF27DE05A8 /* Pods-ZGuidePage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZGuidePage-umbrella.h"; sourceTree = "<group>"; };
+		0FD30735838DCB73597243D21B6646AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F96103943C9F941BEDD51403E596AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D978EE38FF86B42CCEB95E7583731F0 /* ZPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZPageControl.framework; path = ZPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32868CAB6B21EC594945FFE293AA820E /* ZPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPageControl-dummy.m"; sourceTree = "<group>"; };
+		373111A43A7C290F315E99BD58E0D216 /* ZGIFImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZGIFImage-umbrella.h"; sourceTree = "<group>"; };
+		42D0ED2811525048703BF7B91C58E6F9 /* ZGIFImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZGIFImage-dummy.m"; sourceTree = "<group>"; };
+		4BE0F390E1966A69AABD9C710A322C94 /* Pods-ZGuidePage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZGuidePage-resources.sh"; sourceTree = "<group>"; };
+		5627ECAF57A70D856022EB33FC2BC5E7 /* Pods-ZGuidePage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZGuidePage-frameworks.sh"; sourceTree = "<group>"; };
+		609C62F4F172843F4F28BAE356D72FCD /* Pods-ZGuidePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZGuidePage.release.xcconfig"; sourceTree = "<group>"; };
+		62352CFCCA30F816CEFFE9A42EA9092D /* Pods-ZGuidePage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZGuidePage.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67391243A8009EB3BFE9972C07C3429D /* ZGIFImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZGIFImage.swift; path = ZGIFImage/ZGIFImage/ZGIFImage.swift; sourceTree = "<group>"; };
+		7C16313C8EE31E7A7771CAE8BDB4A9F7 /* Pods-ZGuidePage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZGuidePage-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A6AE49C9EF4745B7B578F220FAE19D6 /* ZPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPageControl-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9789ECEA59D838F31ABEC680E70F6B69 /* ZGIFImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZGIFImage.xcconfig; sourceTree = "<group>"; };
+		A0031371A8813FE25BD7BE5C15C4A995 /* Pods-ZGuidePage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZGuidePage-dummy.m"; sourceTree = "<group>"; };
+		A253DC3002B317085E041E5DA444F78B /* Pods_ZGuidePage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZGuidePage.framework; path = "Pods-ZGuidePage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65DA8D0B0E431F2473F8E1F1F1E037B /* ZGIFImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZGIFImage-prefix.pch"; sourceTree = "<group>"; };
+		AD7F8F0014931EF46E20F08D43457690 /* ZGIFImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZGIFImage.modulemap; sourceTree = "<group>"; };
+		AE577C2E019E101AD9B92FE06D87C2B0 /* Pods-ZGuidePage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZGuidePage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B19DBF982A5893DC3594CD54EAA523A6 /* ZPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZPageControl.modulemap; sourceTree = "<group>"; };
+		C39E4EB16BC01B298B99A35895950DEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5904CA6F7045A3085D6D8FA67A5ED42 /* ZGIFImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZGIFImage.framework; path = ZGIFImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FFE0C849E25EE56C9C5FEAE5D782FF /* ZPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPageControl.xcconfig; sourceTree = "<group>"; };
+		EBF776CE8EB38DB7BC536897BCAE950C /* ZPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZPageControl.swift; path = ZPageControl/ZPageControl/ZPageControl.swift; sourceTree = "<group>"; };
+		FE5DB63E356F46200465DC55A558C4EA /* ZPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPageControl-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41807BCFB24475B4195426CC367030A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F4AF1D21F6B3B29156C79A26FD2E1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D426C1ADEAA1020A21A864B51C583CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3112D1B08FEEA02C7532839B2ABFBCE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E6BEEE5493A67A6CF67CCEDD2A5CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE93987DD5E255842BCC2561FABACA26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040C2F38F7A7269BC0BAB4ECE5B77BC6 /* Pods-ZGuidePage */ = {
+			isa = PBXGroup;
+			children = (
+				0FD30735838DCB73597243D21B6646AD /* Info.plist */,
+				051D32DC14C08A0DE775217B8BC7B998 /* Pods-ZGuidePage.modulemap */,
+				AE577C2E019E101AD9B92FE06D87C2B0 /* Pods-ZGuidePage-acknowledgements.markdown */,
+				7C16313C8EE31E7A7771CAE8BDB4A9F7 /* Pods-ZGuidePage-acknowledgements.plist */,
+				A0031371A8813FE25BD7BE5C15C4A995 /* Pods-ZGuidePage-dummy.m */,
+				5627ECAF57A70D856022EB33FC2BC5E7 /* Pods-ZGuidePage-frameworks.sh */,
+				4BE0F390E1966A69AABD9C710A322C94 /* Pods-ZGuidePage-resources.sh */,
+				0D20267D7B1F4355B678AECF27DE05A8 /* Pods-ZGuidePage-umbrella.h */,
+				62352CFCCA30F816CEFFE9A42EA9092D /* Pods-ZGuidePage.debug.xcconfig */,
+				609C62F4F172843F4F28BAE356D72FCD /* Pods-ZGuidePage.release.xcconfig */,
+			);
+			name = "Pods-ZGuidePage";
+			path = "Target Support Files/Pods-ZGuidePage";
+			sourceTree = "<group>";
+		};
+		133684C48E36F4D8354A65A231CFD79C /* ZPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				EBF776CE8EB38DB7BC536897BCAE950C /* ZPageControl.swift */,
+				D578FC2CFBD8310C65488BE9A5F1F8A3 /* Support Files */,
+			);
+			name = ZPageControl;
+			path = ZPageControl;
+			sourceTree = "<group>";
+		};
+		37B77A19EAE9560A64498CE5951E96FD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				040C2F38F7A7269BC0BAB4ECE5B77BC6 /* Pods-ZGuidePage */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E91F8C8C2681DFAE8E37DDF31F43C1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8135C022E5BC308FEFB66155F085E2B7 /* ZGIFImage */,
+				133684C48E36F4D8354A65A231CFD79C /* ZPageControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53B864FFA39254D2BAB28F049E0ED13E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39E4EB16BC01B298B99A35895950DEE /* Info.plist */,
+				AD7F8F0014931EF46E20F08D43457690 /* ZGIFImage.modulemap */,
+				9789ECEA59D838F31ABEC680E70F6B69 /* ZGIFImage.xcconfig */,
+				42D0ED2811525048703BF7B91C58E6F9 /* ZGIFImage-dummy.m */,
+				A65DA8D0B0E431F2473F8E1F1F1E037B /* ZGIFImage-prefix.pch */,
+				373111A43A7C290F315E99BD58E0D216 /* ZGIFImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZGIFImage";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3E91F8C8C2681DFAE8E37DDF31F43C1B /* Pods */,
+				BA736B8B5634AC7D2022A359B530D023 /* Products */,
+				37B77A19EAE9560A64498CE5951E96FD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8135C022E5BC308FEFB66155F085E2B7 /* ZGIFImage */ = {
+			isa = PBXGroup;
+			children = (
+				67391243A8009EB3BFE9972C07C3429D /* ZGIFImage.swift */,
+				53B864FFA39254D2BAB28F049E0ED13E /* Support Files */,
+			);
+			name = ZGIFImage;
+			path = ZGIFImage;
+			sourceTree = "<group>";
+		};
+		BA736B8B5634AC7D2022A359B530D023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A253DC3002B317085E041E5DA444F78B /* Pods_ZGuidePage.framework */,
+				C5904CA6F7045A3085D6D8FA67A5ED42 /* ZGIFImage.framework */,
+				2D978EE38FF86B42CCEB95E7583731F0 /* ZPageControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D578FC2CFBD8310C65488BE9A5F1F8A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F96103943C9F941BEDD51403E596AE /* Info.plist */,
+				B19DBF982A5893DC3594CD54EAA523A6 /* ZPageControl.modulemap */,
+				D5FFE0C849E25EE56C9C5FEAE5D782FF /* ZPageControl.xcconfig */,
+				32868CAB6B21EC594945FFE293AA820E /* ZPageControl-dummy.m */,
+				8A6AE49C9EF4745B7B578F220FAE19D6 /* ZPageControl-prefix.pch */,
+				FE5DB63E356F46200465DC55A558C4EA /* ZPageControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZPageControl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F1AC136C17D6B180F9D7C454F2CF198 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EED68D6705C6CC1191DE4CEEF4039FA /* ZGIFImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710798959815E522FD6C789A0A857CF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D48B5F792B5978EDB9A4EB0D7E3F32 /* Pods-ZGuidePage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73178B81E720181BFCCAEC0E9A710734 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400C84DC48CA05CE1CAA7B71A824DD79 /* ZPageControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		93247069BB0AFA0ECB21DF2D41CAA668 /* ZPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F16FF45D167D0B60178228C6E8B29C /* Build configuration list for PBXNativeTarget "ZPageControl" */;
+			buildPhases = (
+				423108BC37814802CEA158EAE138979B /* Sources */,
+				41807BCFB24475B4195426CC367030A8 /* Frameworks */,
+				73178B81E720181BFCCAEC0E9A710734 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPageControl;
+			productName = ZPageControl;
+			productReference = 2D978EE38FF86B42CCEB95E7583731F0 /* ZPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF89B1374226AF3284C9D1D7E086FC78 /* ZGIFImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF51962A754986606972003571F71E6 /* Build configuration list for PBXNativeTarget "ZGIFImage" */;
+			buildPhases = (
+				8FD105F5CE65EA837E64815966ADA170 /* Sources */,
+				D7E6BEEE5493A67A6CF67CCEDD2A5CDE /* Frameworks */,
+				3F1AC136C17D6B180F9D7C454F2CF198 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGIFImage;
+			productName = ZGIFImage;
+			productReference = C5904CA6F7045A3085D6D8FA67A5ED42 /* ZGIFImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF192BFAF44D6FDA37B8886708BC9CCE /* Pods-ZGuidePage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3BE6F49134F857FFECB20406FDE143 /* Build configuration list for PBXNativeTarget "Pods-ZGuidePage" */;
+			buildPhases = (
+				510813F34A5934308131443331F40B5C /* Sources */,
+				D426C1ADEAA1020A21A864B51C583CF0 /* Frameworks */,
+				710798959815E522FD6C789A0A857CF6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB1A9AB6AE6E918D9CE324238EE86200 /* PBXTargetDependency */,
+				BA541ADC4C9E4B61408B153CDCC494BB /* PBXTargetDependency */,
+			);
+			name = "Pods-ZGuidePage";
+			productName = "Pods-ZGuidePage";
+			productReference = A253DC3002B317085E041E5DA444F78B /* Pods_ZGuidePage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BA736B8B5634AC7D2022A359B530D023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF192BFAF44D6FDA37B8886708BC9CCE /* Pods-ZGuidePage */,
+				DF89B1374226AF3284C9D1D7E086FC78 /* ZGIFImage */,
+				93247069BB0AFA0ECB21DF2D41CAA668 /* ZPageControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423108BC37814802CEA158EAE138979B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267C068C6D3E5A961A72CFE4C99BF122 /* ZPageControl-dummy.m in Sources */,
+				E5FA47323E820A412E11F5F64BC77681 /* ZPageControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510813F34A5934308131443331F40B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958DCBA0E300C70D5CEF49EE8D45E8D6 /* Pods-ZGuidePage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD105F5CE65EA837E64815966ADA170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B2E8827832F373EAB2BACDF601C537 /* ZGIFImage-dummy.m in Sources */,
+				EADC9BA5C7E693871402AF97968B995D /* ZGIFImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA541ADC4C9E4B61408B153CDCC494BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZPageControl;
+			target = 93247069BB0AFA0ECB21DF2D41CAA668 /* ZPageControl */;
+			targetProxy = 093151E51B130D61093981579ED86C02 /* PBXContainerItemProxy */;
+		};
+		EB1A9AB6AE6E918D9CE324238EE86200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZGIFImage;
+			target = DF89B1374226AF3284C9D1D7E086FC78 /* ZGIFImage */;
+			targetProxy = C7B383C95695CE5046CE3968A2B8E0CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21816F519DECC5B81DCDCC5B1E1297A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FFE0C849E25EE56C9C5FEAE5D782FF /* ZPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPageControl/ZPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZPageControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZPageControl/ZPageControl.modulemap";
+				PRODUCT_NAME = ZPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58230363FD6EF09EDF1F529C1D03F1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609C62F4F172843F4F28BAE356D72FCD /* Pods-ZGuidePage.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZGuidePage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZGuidePage/Pods-ZGuidePage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZGuidePage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B27B912355BED754FEA29D429E92F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9789ECEA59D838F31ABEC680E70F6B69 /* ZGIFImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZGIFImage/ZGIFImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZGIFImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZGIFImage/ZGIFImage.modulemap";
+				PRODUCT_NAME = ZGIFImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B6868AC99FFBD3D5E52E15EB6D81473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62352CFCCA30F816CEFFE9A42EA9092D /* Pods-ZGuidePage.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZGuidePage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZGuidePage/Pods-ZGuidePage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZGuidePage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C44914DAEDA78EF390316EC60B280ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FFE0C849E25EE56C9C5FEAE5D782FF /* ZPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPageControl/ZPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZPageControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZPageControl/ZPageControl.modulemap";
+				PRODUCT_NAME = ZPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE9B4467E4DF7FF065670BFBC1FE2909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9789ECEA59D838F31ABEC680E70F6B69 /* ZGIFImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZGIFImage/ZGIFImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZGIFImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZGIFImage/ZGIFImage.modulemap";
+				PRODUCT_NAME = ZGIFImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AF51962A754986606972003571F71E6 /* Build configuration list for PBXNativeTarget "ZGIFImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B27B912355BED754FEA29D429E92F84 /* Debug */,
+				DE9B4467E4DF7FF065670BFBC1FE2909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F16FF45D167D0B60178228C6E8B29C /* Build configuration list for PBXNativeTarget "ZPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21816F519DECC5B81DCDCC5B1E1297A5 /* Debug */,
+				C44914DAEDA78EF390316EC60B280ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D3BE6F49134F857FFECB20406FDE143 /* Build configuration list for PBXNativeTarget "Pods-ZGuidePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B6868AC99FFBD3D5E52E15EB6D81473 /* Debug */,
+				58230363FD6EF09EDF1F529C1D03F1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
